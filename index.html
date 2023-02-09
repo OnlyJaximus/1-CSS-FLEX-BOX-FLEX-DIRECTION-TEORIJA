@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Flex (Flexbox) - detaljnije objašnjenje</title>
+    <style>
+        /* FLEX DIRECTION
+         ROW  (PODRAZUMEVANA)
+         ROW-REVERSE
+         COLUMN
+         COLUMN-REVRSE
+        
+        */
+      .roditelj{
+        border: 1px solid red;
+        display: flex;
+
+        /* ROW je podrazumevana, nista se ne desava  1 2 3 4 poredjani jedan pored drugog */
+        flex-direction: row;  
+
+        /* 4 3 2 1  poredjani u redu jedan pored drugog*/
+        flex-direction: row-reverse; 
+
+        /* Jedan ispod drugog 1 2 3 4 i svi imaju istu visinu bez obzira na flex-grow:2 */
+        flex-direction: column;
+
+        /*  Jedan ispod drugog 4 3 2 1  */
+        flex-direction: column-reverse;
+        height: 200px;
+      }
+
+      .dete{
+        border: 1px solid blue;
+        flex-grow: 1;
+        text-align: center;
+      }
+
+      #e3{
+        flex-grow: 2;
+      }
+    </style>
+</head>
+<body>
+    <div class="roditelj">
+        <div class="dete" id="e1">
+            Prvo
+        </div>
+
+        <div class="dete" id="e2">
+            Drugo
+        </div>
+
+        <div class="dete" id="e3">
+            Trece
+        </div>
+
+        <div class="dete" id="e4">
+            Cetvrto
+        </div>
+    </div>
+    
+</body>
+</html>
