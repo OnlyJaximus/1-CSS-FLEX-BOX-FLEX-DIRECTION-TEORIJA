@@ -1,6 +1,8 @@
 # 1-CSS-FLEX-BOX-FLEX-DIRECTION-TEORIJA
 
 
+
+
 ![1](https://user-images.githubusercontent.com/56784702/217836321-fdb4282a-fa38-4cd4-98cc-473f8543f266.png)
 <br>
 ![2](https://user-images.githubusercontent.com/56784702/217836346-8c4c0968-8f46-4862-b634-9118f306c67e.png)
